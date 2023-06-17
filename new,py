@@ -1,4 +1,0 @@
-import sce
-
-sce.sum_of_squares(2, 3)
-
