@@ -47,9 +47,9 @@ Memorable seven equality constants.
 # Instructions
 Run the following to install
 ```
-    pip install sce
+pip install sce
 ```
 import **sce** library
 ```
-    import sce
+import sce
 ```
