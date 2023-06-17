@@ -1,5 +1,5 @@
 # Summary
-Memorable seven equality constants.
+The memorable seven equality constants.
 
 ## Sum of squares
 """
