@@ -1,6 +1,7 @@
 # Summary
 The memorable seven equality constants.
 
+
 ## Sum of squares
 """
     (a + b)² = a² + 2ab + b² 
