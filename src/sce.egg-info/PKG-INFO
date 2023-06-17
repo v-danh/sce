@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: sce
+Version: 0.0.1
+Summary: A Python library of seven memorable equality constants
+Home-page: https://github.com/v-danh/sce
+Author: v.d.anh
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# Summary
+Memorable seven equality constants.
+
+## Sum of squares
+"""
+    (a + b)Â² = aÂ² + 2ab + bÂ²
+"""
+```sce.sum_of_squares()```
+
+## Subtract of squares
+"""
+    (a - b)Â² = aÂ² - 2ab + bÂ²
+"""
+```sce.subtract_of_squares()```
+
+## Subtract two squares
+"""
+    aÂ² - bÂ² = (a - b)(a + b)
+"""
+```sce.subtract_two_squares()```
+
+## Sum of cubes
+"""
+    (a + b)Â³ = aÂ³ + bÂ³ + 3ab(a + b)
+"""
+```sce.sum_of_cubes()```
+
+## Subtract of cubes
+"""
+    (a - b)Â³ = aÂ³ - bÂ³ - 3ab(a - b)
+"""
+```sce.subtract_of_cubes()```
+
+## Cube two sums
+"""
+    aÂ³ + bÂ³ = (a + b)(aÂ² - ab + bÂ²)
+"""
+```sce.cube_two_sums()```
+
+## Cube two subtracts
+"""
+    aÂ³ - bÂ³ = (a - b)(aÂ² + ab + bÂ²)
+"""
+```sce.sube_two_subtracts()```
+
+
+# Instructions
+Run the following to install
+```
+    pip install sce
+```
+import **sce** library
+```
+    import sce
+```

@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+src/sce.egg-info/PKG-INFO
+src/sce.egg-info/SOURCES.txt
+src/sce.egg-info/dependency_links.txt
+src/sce.egg-info/requires.txt
+src/sce.egg-info/top_level.txt
