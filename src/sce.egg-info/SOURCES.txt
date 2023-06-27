@@ -1,6 +1,9 @@
-README.md
+LICENSE.txt
 pyproject.toml
 setup.py
+src/sce/__init__.py
+src/sce/clogs.py
+src/sce/seven.py
 src/sce.egg-info/PKG-INFO
 src/sce.egg-info/SOURCES.txt
 src/sce.egg-info/dependency_links.txt

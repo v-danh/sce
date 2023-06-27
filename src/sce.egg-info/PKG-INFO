@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: sce
-Version: 0.1.0
-Summary: A Python library of seven memorable equality constants
+Version: 0.0.1
+Summary: A Python library of the memorable seven equality constants
 Home-page: https://github.com/v-danh/sce
 Author: v.d.anh
 License: MIT
@@ -11,9 +11,10 @@ Classifier: Operating System :: OS Independent
 Requires-Python: >=3
 Description-Content-Type: text/markdown
 Provides-Extra: dev
+License-File: LICENSE.txt
 
 # Summary
-The memorable seven equality constants.
+The seven memorable equality constants.
 
 ## Sum of squares
 """
@@ -66,4 +67,26 @@ pip install sce
 import **sce** library
 ```
 import sce
+```
+
+## Usage
+```
+from sce import (
+    sum_of_squares,
+    subtract_of_squares,
+    subtract_two_squares,
+    sum_of_cubes,
+    subtract_of_cubes,
+    cube_two_sums,
+    cube_two_subtracts
+)
+
+# Print out all the results of the seven memorable equality constants.
+print(sum_of_squares(2, 2))
+print(subtract_of_squares(2, 2))
+print(subtract_two_squares(4, 2))
+print(sum_of_cubes(3, 5))
+print(subtract_of_cubes(5, 4))
+print(cube_two_sums(4, 6))
+print(cube_two_subtracts(6, 4))
 ```

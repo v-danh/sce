@@ -1,12 +1,12 @@
 from setuptools import find_packages, setup
 
-with open('README.md', 'r') as f:
+with open('src/README.md', 'r') as f:
     long_description = f.read()
     
 setup(
     name='sce',
-    version='0.1.0',
-    description='A Python library of seven memorable equality constants',
+    version='0.0.1',
+    description='A Python library of the memorable seven equality constants',
     package_dir={'': 'src'},
     packages=find_packages(where='src'),
     long_description=long_description,
@@ -20,7 +20,7 @@ setup(
         'Operating System :: OS Independent',
     ],
     extras_require={
-        'dev': ['pytest>=7.0']
+        'dev': ['pytest>=7.0', 'twine>=4.0.2'],
     },
     python_requires='>=3',
 )
