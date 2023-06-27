@@ -5,37 +5,37 @@ The seven memorable equality constants.
 ## Sum of squares
 """
     (a + b)² = a² + 2ab + b² 
-""" \
+"""
 
 ## Subtract of squares
 """
     (a - b)² = a² - 2ab + b² 
-""" \
+"""
 
 ## Subtract two squares
 """
     a² - b² = (a - b)(a + b)
-""" \
+"""
 
 ## Sum of cubes
 """
     (a + b)³ = a³ + b³ + 3ab(a + b)
-""" \
+"""
 
 ## Subtract of cubes
 """
     (a - b)³ = a³ - b³ - 3ab(a - b)
-""" \
+"""
 
 ## Cube two sums
 """
     a³ + b³ = (a + b)(a² - ab + b²)
-""" \
+"""
 
 ## Cube two subtracts
 """
     a³ - b³ = (a - b)(a² + ab + b²)
-""" \
+"""
 
 
 # Instructions
